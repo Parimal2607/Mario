@@ -15,7 +15,7 @@ body, ul, li, h1, h2, a{
  /* css of header part */
 header{
     background-color: #F63232;
-    padding: 13px;
+    padding: 0px;
     text-align: center;
     position: fixed;
     width: 100%;
