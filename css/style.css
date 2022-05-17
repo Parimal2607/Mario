@@ -17,11 +17,12 @@ header{
     background-color: #F63232;
     padding: 13px;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     z-index: 1;
     top: 0;
     left: 0;
+    margin-top: -10px;
 
 }
 header h1{
@@ -60,8 +61,9 @@ header h1{
 nav{
     background-color: #f4f4f4;
     padding: 20px;
-    /* position: sticky; */
-    top: 125px;
+    position: fixed;
+    width: 100%;
+    top: 67px;
     overflow: hidden;
     /* border: 1px solid #ccc; */
 }
@@ -133,6 +135,7 @@ nav li a:hover{
 .recentNews {
   color:#F63232;
   text-align: center;
+  padding-top: 128px;
    
 }
  
@@ -343,6 +346,9 @@ form input:valid{
 
 h4 {
   text-transform: uppercase;
+}
+.col-md-12{
+  padding-top: 124px;
 }
 
 .form-control {
